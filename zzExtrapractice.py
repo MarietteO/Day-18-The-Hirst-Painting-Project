@@ -23,7 +23,6 @@ for _ in range(10):
     cursor.forward(50)
     for _ in range(10):
         cursor.dot(20, random.choice(color_list))
-        cursor.penup()
         cursor.setheading(0)
         cursor.forward(50)
 
